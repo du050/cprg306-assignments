@@ -41,6 +41,7 @@ export default function NewItem() {
         <div className="p-6 bg-blue-50 rounded-lg shadow-lg max-w-sm mx-auto mt-10">
             <h2 className="text-2xl font-semibold text-blue-700 mb-4">Adjust Quantity</h2>
             <p className="text-xl text-blue-600 mb-6">Quantity: <span className="font-bold">{quantity}</span></p>
+            
             {/* button to decrement and increment the quantity */}
             <div className="flex justify-between">
                 <button
