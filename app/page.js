@@ -13,6 +13,9 @@ export default function HomePage() {
       <Link href="/week-4">
         <p className="text-lg text-blue-500 hover:text-blue-700">Go to Week 4 Assignments</p>
       </Link>
+      <Link href="/week-5">
+        <p className="text-lg text-blue-500 hover:text-blue-700">Go to Week 5 Assignments</p>
+      </Link>
     </div>
   );
 }
