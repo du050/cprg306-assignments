@@ -40,7 +40,7 @@ export default function ItemList() {
       </div>
       <ul style={styles.list}>
         {sortedItems.map((item) => (
-          <Item key={item.id} {...item} />
+          <Item  key={item.id} {...item} />
         ))}
       </ul>
     </div>
@@ -50,6 +50,7 @@ export default function ItemList() {
 // Inline CSS styles
 const styles = {
   container: {
+    color: "black",
     padding: "20px",
     maxWidth: "600px",
     margin: "0 auto",
@@ -83,5 +84,13 @@ const styles = {
   list: {
     listStyleType: "none",
     padding: "0",
+    margin: "5px",
+  },
+  item: {
+    padding: "10px",
+    borderBottom: "1px solid #ddd",
+    display: "flex",
+    justifyContent: "space-between",
+    backgroundColor : "#f9f9f9",
   },
 };
