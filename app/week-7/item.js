@@ -14,6 +14,7 @@ const Item = ({ name, quantity, category }) => {
           display: "flex",
           justifyContent: "space-between",
           margin: "10px",
+          backgroundColor: "#AA336A",
           
         },
         category: {

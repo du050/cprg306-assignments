@@ -17,10 +17,21 @@ export default function Page() {
   };
 
   return (
-    <div>
+    <div style={styles.container}>
       {/* Pass the event handler and items to the components */}
       <NewItem onAddItem={handleAddItem} />
       <ItemList items={items} />
     </div>
   );
 }
+
+const styles = {
+  container: {
+    maxWidth: "600px",
+    margin: "20px auto",
+    padding: "20px",
+    border: "1px solid #ddd",
+    borderRadius: "5px",
+    backgroundColor: "#f9f9f9",
+  },
+};
